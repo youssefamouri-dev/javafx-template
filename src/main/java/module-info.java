@@ -10,6 +10,7 @@
 module app {
     requires javafx.controls;
     requires javafx.fxml;
+    requires transitive javafx.graphics;
 
     exports app;
     opens app to javafx.fxml;
